@@ -13,12 +13,15 @@ public class Student {
     }
     //ToString methods
     public String getName(){
+
         return name;
     }
     public  int getSubject(){
+
         return subjectTake;
     }
     public String getTeacher(){
+
         return teacher;
     }
 }
