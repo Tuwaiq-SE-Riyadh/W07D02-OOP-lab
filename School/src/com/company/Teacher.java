@@ -21,4 +21,7 @@ public class Teacher {
     public String getSubject(){
         return subject;
     }
+    public String toString(){
+        return name +" "+age+" "+subject;
+    }
 }

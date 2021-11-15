@@ -24,4 +24,7 @@ public class Student {
 
         return teacher;
     }
+    public String toString(){
+        return name +" "+subjectTake+" "+teacher;
+    }
 }

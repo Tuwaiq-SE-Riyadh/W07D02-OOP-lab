@@ -9,10 +9,12 @@ public class Main {
         System.out.println(teacher.getName());
         System.out.println(teacher.getAge());
         System.out.println(teacher.getSubject());
+        System.out.println();
         //display student value
         System.out.println(student.getName());
         System.out.println(student.getSubject());
         System.out.println(student.getTeacher());
+        System.out.println(student.toString());
     }
 
 }
